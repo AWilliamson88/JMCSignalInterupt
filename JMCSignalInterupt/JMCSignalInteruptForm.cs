@@ -15,7 +15,6 @@ namespace JMCSignalInterupt
         public JMCSignalInteruptForm()
         {
             InitializeComponent();
-            // Worker one.
             BGWorkerOne.WorkerReportsProgress = true;
             BGWorkerOne.WorkerSupportsCancellation = true;
             
