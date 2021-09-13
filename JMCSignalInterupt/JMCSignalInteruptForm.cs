@@ -8,6 +8,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/// <summary>
+/// Author: Andrew Williamson / P113357
+/// Date: 13/09/2021
+/// 
+/// Programming 3 AT2.5
+/// Question 5 – JMC requires the implementation of a program that can interrupt 
+/// running tasks using signals.
+/// You must create a program that responds to a windows signal (Ctrl+C, etc)
+/// </summary>
 namespace JMCSignalInterupt
 {
     public partial class JMCSignalInteruptForm : Form
