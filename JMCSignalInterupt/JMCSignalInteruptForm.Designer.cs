@@ -47,6 +47,16 @@ namespace JMCSignalInterupt
             this.StatusLblTwo = new System.Windows.Forms.Label();
             this.StatusLblThree = new System.Windows.Forms.Label();
             this.BGWorkerThree = new System.ComponentModel.BackgroundWorker();
+            this.LineLbl = new System.Windows.Forms.Label();
+            this.WorkerOneInfoTitle = new System.Windows.Forms.Label();
+            this.StartLblOne = new System.Windows.Forms.Label();
+            this.CancelLblOne = new System.Windows.Forms.Label();
+            this.CancelLblTwo = new System.Windows.Forms.Label();
+            this.StartLblTwo = new System.Windows.Forms.Label();
+            this.WorkerTwoInfoTitle = new System.Windows.Forms.Label();
+            this.CancelLblThree = new System.Windows.Forms.Label();
+            this.StartLblThree = new System.Windows.Forms.Label();
+            this.WorkerThreeInfoTitle = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // StartAsyncBtnOne
@@ -202,11 +212,114 @@ namespace JMCSignalInterupt
             this.BGWorkerThree.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.BGWorkerThree_ProgressChanged);
             this.BGWorkerThree.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.BGWorkerThree_RunWorkerCompleted);
             // 
+            // LineLbl
+            // 
+            this.LineLbl.AutoSize = true;
+            this.LineLbl.Location = new System.Drawing.Point(12, 418);
+            this.LineLbl.Name = "LineLbl";
+            this.LineLbl.Size = new System.Drawing.Size(229, 13);
+            this.LineLbl.TabIndex = 15;
+            this.LineLbl.Text = "_____________________________________";
+            // 
+            // WorkerOneInfoTitle
+            // 
+            this.WorkerOneInfoTitle.AutoSize = true;
+            this.WorkerOneInfoTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WorkerOneInfoTitle.Location = new System.Drawing.Point(88, 437);
+            this.WorkerOneInfoTitle.Name = "WorkerOneInfoTitle";
+            this.WorkerOneInfoTitle.Size = new System.Drawing.Size(85, 17);
+            this.WorkerOneInfoTitle.TabIndex = 16;
+            this.WorkerOneInfoTitle.Text = "Worker One";
+            // 
+            // StartLblOne
+            // 
+            this.StartLblOne.AutoSize = true;
+            this.StartLblOne.Location = new System.Drawing.Point(80, 458);
+            this.StartLblOne.Name = "StartLblOne";
+            this.StartLblOne.Size = new System.Drawing.Size(101, 13);
+            this.StartLblOne.TabIndex = 17;
+            this.StartLblOne.Text = "Start: Ctrl + Shift + 1";
+            // 
+            // CancelLblOne
+            // 
+            this.CancelLblOne.AutoSize = true;
+            this.CancelLblOne.Location = new System.Drawing.Point(74, 475);
+            this.CancelLblOne.Name = "CancelLblOne";
+            this.CancelLblOne.Size = new System.Drawing.Size(113, 13);
+            this.CancelLblOne.TabIndex = 18;
+            this.CancelLblOne.Text = "Cancel: Ctrl + Shift + A";
+            // 
+            // CancelLblTwo
+            // 
+            this.CancelLblTwo.AutoSize = true;
+            this.CancelLblTwo.Location = new System.Drawing.Point(74, 539);
+            this.CancelLblTwo.Name = "CancelLblTwo";
+            this.CancelLblTwo.Size = new System.Drawing.Size(113, 13);
+            this.CancelLblTwo.TabIndex = 21;
+            this.CancelLblTwo.Text = "Cancel: Ctrl + Shift + B";
+            // 
+            // StartLblTwo
+            // 
+            this.StartLblTwo.AutoSize = true;
+            this.StartLblTwo.Location = new System.Drawing.Point(80, 522);
+            this.StartLblTwo.Name = "StartLblTwo";
+            this.StartLblTwo.Size = new System.Drawing.Size(101, 13);
+            this.StartLblTwo.TabIndex = 20;
+            this.StartLblTwo.Text = "Start: Ctrl + Shift + 2";
+            // 
+            // WorkerTwoInfoTitle
+            // 
+            this.WorkerTwoInfoTitle.AutoSize = true;
+            this.WorkerTwoInfoTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WorkerTwoInfoTitle.Location = new System.Drawing.Point(88, 504);
+            this.WorkerTwoInfoTitle.Name = "WorkerTwoInfoTitle";
+            this.WorkerTwoInfoTitle.Size = new System.Drawing.Size(84, 17);
+            this.WorkerTwoInfoTitle.TabIndex = 19;
+            this.WorkerTwoInfoTitle.Text = "Worker Two";
+            // 
+            // CancelLblThree
+            // 
+            this.CancelLblThree.AutoSize = true;
+            this.CancelLblThree.Location = new System.Drawing.Point(74, 604);
+            this.CancelLblThree.Name = "CancelLblThree";
+            this.CancelLblThree.Size = new System.Drawing.Size(113, 13);
+            this.CancelLblThree.TabIndex = 24;
+            this.CancelLblThree.Text = "Cancel: Ctrl + Shift + C";
+            // 
+            // StartLblThree
+            // 
+            this.StartLblThree.AutoSize = true;
+            this.StartLblThree.Location = new System.Drawing.Point(80, 587);
+            this.StartLblThree.Name = "StartLblThree";
+            this.StartLblThree.Size = new System.Drawing.Size(101, 13);
+            this.StartLblThree.TabIndex = 23;
+            this.StartLblThree.Text = "Start: Ctrl + Shift + 3";
+            // 
+            // WorkerThreeInfoTitle
+            // 
+            this.WorkerThreeInfoTitle.AutoSize = true;
+            this.WorkerThreeInfoTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WorkerThreeInfoTitle.Location = new System.Drawing.Point(82, 569);
+            this.WorkerThreeInfoTitle.Name = "WorkerThreeInfoTitle";
+            this.WorkerThreeInfoTitle.Size = new System.Drawing.Size(96, 17);
+            this.WorkerThreeInfoTitle.TabIndex = 22;
+            this.WorkerThreeInfoTitle.Text = "Worker Three";
+            // 
             // JMCSignalInteruptForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(263, 450);
+            this.ClientSize = new System.Drawing.Size(263, 634);
+            this.Controls.Add(this.CancelLblThree);
+            this.Controls.Add(this.StartLblThree);
+            this.Controls.Add(this.WorkerThreeInfoTitle);
+            this.Controls.Add(this.CancelLblTwo);
+            this.Controls.Add(this.StartLblTwo);
+            this.Controls.Add(this.WorkerTwoInfoTitle);
+            this.Controls.Add(this.CancelLblOne);
+            this.Controls.Add(this.StartLblOne);
+            this.Controls.Add(this.WorkerOneInfoTitle);
+            this.Controls.Add(this.LineLbl);
             this.Controls.Add(this.StatusLblThree);
             this.Controls.Add(this.StatusLblTwo);
             this.Controls.Add(this.StatusLblOne);
@@ -251,6 +364,16 @@ namespace JMCSignalInterupt
         private System.Windows.Forms.Label StatusLblTwo;
         private System.Windows.Forms.Label StatusLblThree;
         private System.ComponentModel.BackgroundWorker BGWorkerThree;
+        private System.Windows.Forms.Label LineLbl;
+        private System.Windows.Forms.Label WorkerOneInfoTitle;
+        private System.Windows.Forms.Label StartLblOne;
+        private System.Windows.Forms.Label CancelLblOne;
+        private System.Windows.Forms.Label CancelLblTwo;
+        private System.Windows.Forms.Label StartLblTwo;
+        private System.Windows.Forms.Label WorkerTwoInfoTitle;
+        private System.Windows.Forms.Label CancelLblThree;
+        private System.Windows.Forms.Label StartLblThree;
+        private System.Windows.Forms.Label WorkerThreeInfoTitle;
     }
 }
 
